@@ -1,0 +1,43 @@
+.hour_marker {
+    fill: transparent;
+    stroke: #f4f8f4;
+    stroke-width: 7;
+    stroke-dasharray: 0.2, 4.8;
+    stroke-dashoffset: 0.1;
+  }
+  body{
+      background-color: darkslategray;
+      margin:0;
+
+      display:flex;
+      align-items: center;
+      justify-content: center;
+
+  }
+  
+  .minute_marker {
+    fill: transparent;
+    stroke: #121516;
+    stroke-width: 7;
+    stroke-dasharray: 0.2, 0.8;
+    stroke-dashoffset: 0.1;
+  }
+  .hand {
+    stroke: #1f72df;
+    stroke-width: 2;
+    stroke-linecap: round;
+  }
+  
+  .hand--thick {
+    stroke-width: 7;
+  }
+  
+  .hand--second {
+    stroke: yellow;
+  }
+  .center{
+      fill:#7b0828;
+      stroke-width:2;
+      stroke: azure;
+
+  }
